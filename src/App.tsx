@@ -1,4 +1,4 @@
-git add .
+
 import { TopBar } from "./components/TopBar";
 import { MainHeader } from "./components/MainHeader";
 import { SearchAndCategories } from "./components/SearchAndCategories";
