@@ -5,12 +5,12 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "moduleResolution": "bundler",  // يمكن تغييرها إلى "node" إذا كنت تستخدم Node.js فقط
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,  // إذا كنت ترغب في أن يقوم TypeScript بإنشاء ملفات JavaScript
-    "jsx": "react-jsx",  // تأكد من أنك تستخدم React 17 أو أحدث
+    "noEmit": true, 
+    "jsx": "react-jsx",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
