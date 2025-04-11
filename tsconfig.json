@@ -5,20 +5,19 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "node",  // تغيير من "bundler" إلى "node"
+    "moduleResolution": "bundler",  // يمكن تغييرها إلى "node" إذا كنت تستخدم Node.js فقط
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",  // تأكد من أنك تستخدم React 17 وما فوق
-
-    /* Linting */
+    "noEmit": false,  // إذا كنت ترغب في أن يقوم TypeScript بإنشاء ملفات JavaScript
+    "jsx": "react-jsx",  // تأكد من أنك تستخدم React 17 أو أحدث
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "references": [{
+    "path": "./tsconfig.node.json"
+  }]
 }
