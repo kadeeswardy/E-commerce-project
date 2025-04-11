@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 const slides = [
   {
     id: 1,
-    image: '/public/banner-17.jpg',
+    image: '/banner-17.jpg',
     title: 'Premium Headphones',
     price: '$99.99',
     description: 'Experience crystal-clear sound quality.',
