@@ -1,5 +1,5 @@
 
-git add .
+import { Icon } from "@iconify/react";
 import { categories } from "../constants/navigation";
 
 export const SearchAndCategories = () => {
